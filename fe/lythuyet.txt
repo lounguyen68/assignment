@@ -1,0 +1,16 @@
+1.Components trong react là gì?
+- Components trong react là các thành phần giao diện được xây dựng để tái sử dụng
+
+2.Thường sử dụng những hooks nào trong react và mục đích của nó là gì?
+- useState: sử dụng để quản lý các state trong một component
+- useEffect: sử dụng để lắng nghe các sự kiện trong component hoặc call API
+- useRef: sử dụng để truy cập đến một phần tử (DOM node hoặc React element)
+
+3.Phân biết các hàm cơ bản như (map,forEach,filter,reduce)
+- map: duyệt lần lượt các phần tử, gọi callback, tạo ra mảng mới
+- forEach: duyệt lần lượt các phần tử, gọi callback, không tạo ra mảng mới
+- filter: duyệt lần lượt các phần tử, gọi callback, tạo ra mảng mới gồm các phần tử thỏa mãn điều kiện callback
+- reduce: duyệt lần lượt các phần tử, gọi callback, trả về 1 giá trị duy nhất
+
+4. Cách xử lý bất đồng bộ
+- sử dụng Promises hoặc Async/await
