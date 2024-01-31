@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.navbar__item {
+    padding: 0 20px;
+    margin-left: 20px;
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__item:hover {
+    background-color: #ccc
+}
