@@ -1,0 +1,21 @@
+1. Các kiểu cấu trúc dữ liệu hay sử dụng: kiểu nguyên thủy, array, list, map, ....
+- Kiểu nguyên thủy: bao gồm các kiểu dữ liệu cơ bản như số nguyên, số thực, boolean
+- Array: tập hợp nhiều phần tử cùng Kiểu
+- Linked List: tập hợp nhiều phần tử, mỗi phần tử có chứa giá trị và con trỏ liên kết với phần tử khác
+- Map: tập hợp nhiều cặp key-value, mỗi key tương ứng với một value
+- Set: tập hợp nhiều phần tử(các phần tử không trùng lặp)
+- Tree: tập hợp nhiều phần tử lưu trữ dưới dạng đồ thị hình cây
+2. Phân biệt for - for each - map trong js,ts:
+- for: sử dụng duyệt qua từng phần tử
+- forEach:  sử dụng duyệt qua từng phần tử, gọi callback
+- map: sử dụng duyệt qua từng phần tử, gọi callback, trả về mảng mới
+3. Deadlock trong db là gì
+4. Callback hell là gì
+- Callback hell là việc lồng ghép nhiều callback trong xử lý bất đồng bộ
+5. Oop là gì tính chất: tính đa hình, tính kế thừa, tính trừu tượng, tính đóng gói
+- OOP ( lập trình hướng đối tượng) là kỹ thuật lập trình tạo ra các "đối tượng". Mỗi đối tượng gồm 2 thông tin:
+"thuộc tính" và "phương thức".
+- Tính đóng gói: các thuộc tính và phương thức của đối tượng được đóng gói thành 1 lớp, che giấu các thông tin nội bộ
+- Tinh kế thừa: lớp con kế thừa đầy đủ thuộc tính và phương thức của lớp cha
+- Tính đa hình: các lớp con có phương thức giống nhau nhưng cách thực thi phương khác nhau.
+- Tính trừu tượng: tổng quát hóa đối tượng, chỉ thể hiện lớp bằng các thuộc tính và phương thức cần thiết
